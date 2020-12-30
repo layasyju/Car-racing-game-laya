@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("blackbg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	margin-top: 30px;
+	border-width:10px;
+	background-color: rgb(235, 224, 224); 
+	border-style:ridge;
+}
+
+h1
+{
+	color: rgb(240, 232, 232);
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car Race</title>
+</head>
+<body onload="add();">
+<center>
+<h1>Car Race</h1>
+<canvas id="myCanvas" width="800" height="600"></canvas>
+<h1>Game status:<span id="game status"></span></h1>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
